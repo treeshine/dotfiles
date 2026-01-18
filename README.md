@@ -4,23 +4,29 @@
 
 - [oh-my-zsh](https://ohmyz.sh/)
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
-- [Neovim(Lazyvim)](https://www.lazyvim.org/)
+- [Neovim(LazyVim)](https://www.lazyvim.org/)
 - [WezTerm](https://wezterm.org/index.html)
 
 ## Requirements
 
-- Git
+- git
 - curl
-- Stow
-- Nerd font
+- stow
+- nerd font
 - zsh
+- oh-my-zsh
+  - fzf-tab
+  - zsh-completions
+  - zsh-autosuggestions
+  - zsh-syntax-highlighting
+- powerlevel10k
 - gcc
 - g++
 - nodejs
 - go
 - python
-- Neovim
-- tree-citter-cli
+- neovim
+- tree-sitter-cli
 - lazygit
 - fzf
 - eza
