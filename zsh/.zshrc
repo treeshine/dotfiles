@@ -11,6 +11,7 @@ plugins=(
   fzf
   fzf-tab
   zoxide
+  uv
   zsh-autosuggestions
   zsh-syntax-highlighting
 )
@@ -31,3 +32,6 @@ conda() {
   source /opt/miniconda3/etc/profile.d/conda.sh
   conda "$@"
 }
+
+# UV
+. "$HOME/.local/bin/env"
