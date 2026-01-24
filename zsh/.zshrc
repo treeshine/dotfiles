@@ -34,4 +34,13 @@ conda() {
 }
 
 # UV
-. "$HOME/.local/bin/env"
+case "$(uname)" in
+  Darwin)
+    # macOS (brew) → nothing to do
+    ;;
+  Linux)
+    if [[ -f "$HOME/.local/bin/env" ]]; then
+      . "$HOME/.local/bin/env"
+    fi
+    ;;
+esac
