@@ -6,8 +6,8 @@ local config = wezterm.config_builder()
 
 -- This is where you actually apply your config choices.
 
-config.font = wezterm.font("MesloLGS NF")
-config.font_size = 14
+config.font = wezterm.font("D2CodingLigature Nerd Font Mono")
+config.font_size = 16
 
 config.color_scheme = "Catppuccin Mocha"
 
