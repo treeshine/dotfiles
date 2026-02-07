@@ -6,6 +6,7 @@
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - [Neovim(LazyVim)](https://www.lazyvim.org/)
 - [WezTerm](https://wezterm.org/index.html)
+- [Alacritty](https://github.com/alacritty/alacritty)
 
 ## Requirements
 
@@ -39,5 +40,5 @@
 git clone https://github.com/treeshine/dotfiles ~/dotfiles
 cd ~/dotfiles
 
-stow zsh p10k nvim wezterm
+stow git zsh p10k nvim wezterm alacritty
 ```
