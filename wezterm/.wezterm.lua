@@ -11,6 +11,7 @@ config.font_size = 16
 
 config.color_scheme = "Catppuccin Mocha"
 
+config.enable_tab_bar = false
 config.window_decorations = "RESIZE"
 
 -- Finally, return the configuration to wezterm:
