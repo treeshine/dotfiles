@@ -1,0 +1,14 @@
+[general]
+import = [
+  "~/.config/alacritty/themes/themes/catppuccin_mocha.toml"
+]
+
+[window]
+padding.x = 10
+padding.y = 10
+
+decorations = "Buttonless"
+
+[font]
+normal.family = "D2CodingLigature Nerd Font Mono"
+size = 16
