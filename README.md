@@ -26,6 +26,7 @@
 - nodejs
 - go
 - python
+- rustup
 - neovim
 - tree-sitter-cli
 - lazygit
@@ -33,6 +34,8 @@
 - eza
 - bat
 - zoxide
+- yazi
+- tdf
 
 ## Installation
 
