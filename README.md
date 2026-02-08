@@ -43,5 +43,5 @@
 git clone https://github.com/treeshine/dotfiles ~/dotfiles
 cd ~/dotfiles
 
-stow git zsh p10k nvim wezterm alacritty
+stow <packages1> <packages2> ...
 ```
