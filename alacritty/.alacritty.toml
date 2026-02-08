@@ -1,7 +1,8 @@
 [general]
-import = [
-  "~/.config/alacritty/themes/themes/catppuccin_mocha.toml"
-]
+import = ["~/themes/themes/catppuccin_mocha.toml"]
+
+[env]
+LANG = "ko_KR.UTF-8"
 
 [window]
 padding.x = 10
@@ -12,3 +13,11 @@ decorations = "Buttonless"
 [font]
 normal.family = "D2CodingLigature Nerd Font Mono"
 size = 16
+
+[font.offset]
+x = 0
+y = -3
+
+[font.glyph_offset]
+x = 0
+y = 0
