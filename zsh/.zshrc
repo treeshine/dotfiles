@@ -47,3 +47,6 @@ esac
 
 # Created by `pipx` on 2026-01-24 06:41:55
 export PATH="$PATH:/Users/treeshine/.local/bin"
+
+# thefuck
+eval "$(thefuck --alias)"
