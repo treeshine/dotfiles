@@ -22,6 +22,8 @@ source $ZSH/oh-my-zsh.sh
 alias ls="eza --icons"
 alias cd="z"
 alias cat="bat"
+alias find="fd"
+alias grep="rg"
 
 # Prompt
 [[ -f ~/.p10k.zsh ]] && source ~/.p10k.zsh
