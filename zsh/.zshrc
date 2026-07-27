@@ -9,7 +9,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=(
   fzf
-  fzf-tab
   zoxide
   uv
   zsh-autosuggestions
