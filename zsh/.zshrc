@@ -74,6 +74,11 @@ case "$(uname)" in
     ;;
 esac
 
+# tmux
+if command -v tmux >/dev/null 2>&1 && [ -z "$TMUX" ]; then
+    tmux attach-session -t main 2>/dev/null || tmux new-session -s main
+fi
+
 # Created by `pipx` on 2026-01-24 06:41:55
 export PATH="$PATH:/Users/treeshine/.local/bin"
 
