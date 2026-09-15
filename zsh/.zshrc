@@ -84,6 +84,3 @@ export PATH="$PATH:/Users/treeshine/.local/bin"
 
 # kubescape PATH
 export PATH=$PATH:/home/treeshine/.kubescape/bin
-
-# thefuck
-eval "$(thefuck --alias)"
