@@ -1,3 +1,8 @@
+# Auto-start tmux
+if command -v tmux >/dev/null 2>&1 && [ -z "$TMUX" ]; then
+    tmux new-session -A -s main
+fi
+
 # Powerlevel10k Instant Prompt
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
@@ -73,11 +78,6 @@ case "$(uname)" in
     fi
     ;;
 esac
-
-# tmux
-if command -v tmux >/dev/null 2>&1 && [ -z "$TMUX" ]; then
-    tmux attach-session -t main 2>/dev/null || tmux new-session -s main
-fi
 
 # Created by `pipx` on 2026-01-24 06:41:55
 export PATH="$PATH:/Users/treeshine/.local/bin"
